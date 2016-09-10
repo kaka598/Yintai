@@ -1,0 +1,22 @@
+@charset "utf-8";
+	
+/* -------------------------reset ---------------------------------*/
+html{color:#888888;}
+body,div,dl,dt,dd,ul,ol,li,hr,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,img,legend,input,button,textarea,p,blockquote,th,td{margin:0 auto;padding:0}
+table{border-collapse:collapse;border-spacing:0;_table-layout:fixed}
+fieldset,img{border:0}
+li{list-style:none}
+input,textarea,select,button,option{font-family:inherit;font-size:inherit;font-weight:inherit;}
+h1,h2,h3,h4,h5,h6,input,textarea,select,button{font-size:100%}
+legend{color:#000}
+.clear{clear:both; height:0px; width:100%; font-size:1px; line-height:0px; visibility:hidden; overflow:hidden;}
+.clearture:after{content:'';display:block;clear:both;height:0px; width:100%;visibility:hidden;}
+a{text-decoration:none;	font-size:14px;color:#000;font-family: "微软雅黑";}
+q:before,q:after{content:''}
+.left{float:left;}
+.right{float:right;}
+.poa{position:absolute;}
+.por{position:relative;}
+.bgr{background:red;}
+.dis_none{display:none;}
+.dis_block{display:block;}

@@ -1,0 +1,108 @@
+@charset "utf-8";
+/*-----------------------登录页---------------------------------*/	
+			.regpage{
+				width:100%;
+				padding-top:10px;
+				border-top:1px solid #000;
+			}			
+			.reg_top{
+				width:900px;
+				height:50px;
+				padding-top:30px;
+				margin-bottom:40px;
+				color:#000;				
+			}
+			.reg_top h4{
+				font-size:24px;
+			}
+			.reg_top span{
+				font-size:14px;
+				margin-left:10px;
+				color:#999;
+			}
+			.reg_top .info{
+				right:10px;
+				bottom:5px;
+			}
+			.main{
+				width:900px;
+				height:400px
+			}
+			.main p{
+				height:60px;		
+			}
+			.main label{
+				height:32px;
+				margin-left:40px;
+				line-height:32px;
+				
+			}
+			
+			.main p input{
+				left:150px;
+				height:30px;
+				width:300px;
+				background:#eee;
+				border:1px solid red;
+			}
+		
+			.main .reg_btn{
+				left:150px;
+				width:190px;
+				height:33px;
+				font-weight:bolder;
+				color:#fff;
+				margin-top:50px;
+				background: #c70145;
+			}
+			.main .read_reg{
+				height:30px;
+				margin-top:5px;
+				left:150px;
+				
+			}
+			.main .tips{
+				display:block;
+				margin-left:150px;
+			}
+			.main .rp{
+				left:550px;
+				top:0px;
+			}
+			.bottom{
+				width:900px;
+				height:50px;	
+				margin-bottom:50px;			
+				padding-top:25px;
+				border:1px solid #eee;
+			}
+			.bottom ul{
+				width:900px;
+				height:50px;				
+			}
+			.bottom p{
+				margin-left:8px;
+				margin-bottom:5px;
+			}
+			.bottom ul li{
+				float:left;
+				margin-left:8px;
+				width:84px;
+				height:20px;
+				line-height:20px;
+				border:1px solid #000;			
+			}
+			.bottom ul li a{
+				line-height:20px;
+			}
+			.bottom ul img{
+				width:84px;
+				height:20px;
+			}
+			.bottom .nui img{
+				width:25px;
+				float:left;					
+			}
+			.bottom .nui a:hover{
+				color:red;
+			}

@@ -1,0 +1,362 @@
+@charset "utf-8";
+/*----------------------detail------------------------*/
+			.detail{
+				width:1190px;
+				height:588px;
+				margin-bottom:8px;
+				border:1px solid black;
+			}
+			.detail .del_top{
+				height:47px;
+				line-height:47px;
+				background: #f4f4f4;
+			}	
+			.detail .del_top li{
+				margin-left:10px;
+				float:left;
+			}
+			.detail .del_top li a:hover{
+				color:red;
+			}
+			.detail .mpic{
+				height:540px;
+				width:327px;
+				
+			}
+			.detail .m_top{
+				margin-left:18px;
+				width:291px;
+				height:428px;
+				overflow: hidden;
+				position:relative;
+			}
+			.detail .m_top img{
+				width:290px;
+				height:428px;
+			}
+			.detail .m_top .mark{
+				display:none;
+				background: #000;
+				opacity:0.5;	
+				position:absolute;
+			}
+			.detail .m_mid{
+				width:327px;
+				height:62px;
+			}
+			.detail .m_mid span{
+				line-height:60px;
+				
+			}
+			.detail .m_mid .prev span{
+				float:right;
+			}
+			.detail .m_mid .picbo{
+				margin-left:0px;
+			}
+			.detail .m_mid .picbo .spic{
+				width:60px;
+				height:60px;
+				float:left;
+				margin-left:10px;
+				border:1px solid #000;
+				
+			}
+			.detail .m_mid .picbo .spic img{
+				width:60px;
+				height:60px;
+			}
+			.detail .m_mid .prev,.next{
+				width:15px;
+				height:60px;
+				cursor:pointer;
+				
+			}
+			.detail .m_bottom{
+				margin:15px 0 0 5px;
+			}
+			.detail .m_bottom li{				
+				float:left;
+			}
+			.bn_L{
+				position:relative;
+			}
+			.bn_L .bigpic img{
+				position:absolute;
+				width:493px;
+				height:615px;
+				
+			}
+			.bn_L .bigpic{
+				position:absolute;
+				display:none;
+				width:300px;
+				height:300px;
+				top:50px;
+				left:350px;
+				border:1px solid black;
+				overflow: hidden;
+			}
+			.bn_M{
+				width:515px;
+				height:540px;
+				margin:0 0 0 30px;
+				float:left;
+				padding-left:75px;
+						
+			}		
+			.bn_M .mtitle{
+				font-size:20px;
+				margin:15px 0 10px 0;				
+				color:#000;
+			}
+			.bn_M .price span{
+				color:red;
+				font-size:22px;
+				font-weight:bolder;
+			}
+			.bn_M .price b{
+				color:red;
+			}
+			.bn_M .price s{
+				text-decoration: none;
+				background: #d4bd8a;
+				padding:0 5px;
+			}
+			.bn_M .tprice{
+				margin:10px 0 35px 0 ;
+				
+			}
+			.bn_M .tprice span{
+				text-decoration:line-through;
+			}
+			.bn_M .example{
+				width:500px;
+				height:30px;
+				margin:0;
+				line-height:30px;
+				background:#eee;
+			}
+			.bn_M .example span{
+				background: #d4bd8a;
+				text-align: center;
+				padding:0 5px;
+				margin-left:10px;
+			}
+			.bn_M .scolor{
+				margin-top:24px;
+			}
+			.bn_M .scolor p{
+				margin-right:15px;
+			}
+			.bn_M .scolor ul{
+				width:350px;
+				height:90px;
+				
+			}
+			.bn_M .scolor li{
+				float:left;
+				height:45px;
+				border:1px solid black;
+				margin:10px 0 0 10px;
+			}
+			.bn_M .scolor li img{
+				width:83px;
+				height:38px;
+			}
+			.bn_M .scolor p{
+				margin-top:10px;
+			}
+			.bn_M .size{
+				margin-top:24px;
+				
+			}
+			.bn_M .size p{
+				margin-right:10px;
+				
+			}
+			.bn_M .size li{
+				float:left;
+				height:38px;
+				padding:0 10px;
+				line-height:38px;
+				border:1px solid #000;
+			}
+			
+			.detail .size .border{
+				border:2px solid red;
+			}
+			
+			.bn_M .choose{
+				margin-top:15px;
+				display:inline-block;
+			}
+			.bn_M input{
+				width:50px;
+				height:40px;
+				text-align: center;
+			}
+			.bn_M .cv{
+				width:40px;
+				height:40px;
+			}
+			.bn_M .choose span{
+				display:inline-block;
+				width:50px;
+				height:40px;
+				line-height:40px;
+				text-align: center;
+				background: #eee;
+				cursor:pointer;
+			}
+			
+			.bn_M button{
+				width:150px;
+				height:40px;
+				border:none;
+				margin-left:20px;
+				color:#fff;
+				font-weight:bolder;
+				background: #e5004f;
+			}
+			.bn_M .wr{
+				width:488px;
+				height:30px;
+				margin:30px 0 8px 0;
+				line-height:30px;
+				padding-left:12px;
+				background: #f7f3e8;
+			}
+			.bn_R img{
+				margin-top:30px;
+			}
+			.dt_whole{
+				width:1190px;
+				height:3000px;
+			}
+			.dt_whole .dt_L{
+				width:993px;
+				height:2800px;
+				margin-right:10px;
+				background: #eee;
+			}
+			.dt_whole .dt_title ul{
+				height:30px;
+				background: #999;
+			}
+			.dt_whole .dt_title li{
+				float:left;
+				width:118px;
+				height:30px;			
+				line-height:30px;
+				text-align: center;
+				color:#fff;
+				border-right:1px solid #fff;
+				cursor:pointer;
+			}
+			.dt_whole .dt_title li:hover{
+				background: #b7ab91;
+			}
+			.dt_whole .dt_L .t_up{
+				width:915px;
+				height:40px;
+				line-height:55px;
+				padding-left:5px;
+				background:url(../img/dt_bg.jpg)  repeat;
+			}
+			.dt_whole .dt_L .t_up p{
+				font-size:20px;				
+			}
+			.dt_whole .dt_L .t_up b{
+				border-bottom: 2px solid red;
+			}		
+			.dt_whole .dt_L .t_up span{
+				margin-left:10px;
+				font-size:14px;
+			}
+			.dt_whole .dt_R{
+				width:186px;
+				height:1300px;
+				margin-bottom:10px;
+				background: #ee8;
+			}
+			.dt_whole .dt_line{
+				width:920px;
+				height:210px;
+				
+			}
+			.dt_whole .dt_line p{
+				height:30px;
+				line-height:30px;
+				position:relative;		
+			}
+			.dt_whole .dt_line p.bg_w{
+				background: #fff;			
+			}
+			.dt_whole .dt_line span{
+				position:absolute;
+			}
+			.dt_whole .dt_line .a1{
+				left:27px;
+			}
+			.dt_whole .dt_line .a2{
+				left:258px;
+			}
+			.dt_whole .dt_line .a3{
+				left:490px;
+			}
+			.dt_whole .dt_line .a4{
+				left:722px;
+			}
+			.dt_whole .dt_line .picM img{
+				width:450px;
+				height:600px;
+			}
+			.dt_whole .dt_L .dt_f2{
+				width:915px;
+				height:40px;
+				line-height:55px;
+				padding-left:5px;
+				margin-top:30px;
+				background:url(../img/dt_bg.jpg)  repeat;
+			}
+			.dt_whole .dtr_title{
+				width:186px;
+				height:30px;
+				margin-bottom:30px;
+				line-height:30px;
+				background: #999;
+				color:#fff;
+			}
+			.dt_whole .dtr_title span{
+				font-size:12px;
+				margin-left:80px;
+			}
+			.dt_whole .dt_R dl{
+				width:auto;
+				height:270px;
+			}
+			.dt_whole .dt_R dd{
+				width:150px;
+				height:170px;
+				border:1px solid #000;
+			}
+			.dt_whole .dt_R dd img{
+				width:150px;
+				height:170px;
+			}
+			.dt_whole .dt_R dt{
+				width:150px;
+				margin-top:10px;
+				line-height:20px;
+			}
+			.dt_whole .dt_R dt a:hover{
+				color:red;
+			}
+			.dt_whole .dt_R dt span{
+				color:red;
+				margin-left:40px;
+			}
+			.bgColor{
+				background:url(../css/choose.jpg) 73px 35px no-repeat;
+			}

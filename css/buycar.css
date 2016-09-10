@@ -1,0 +1,259 @@
+@charset "utf-8";
+/*----------------------------购物车------------------------------------*/			
+			
+			.buycar{
+				width:100%;
+				height:855px;
+				padding-top:20px;
+				border-top:1px solid #999;
+				background: #eee;
+			}		
+			.car_go{
+				width:985px;
+				height:840px;				
+				background:#fff;
+			}	
+			.buycar .fp1{
+				width:940px;
+				height:111px;
+				background: url(../img/buycar1.jpg);
+			}	
+			.buycar .fp2{
+				width:940px;
+				height:165px;
+				border:1px solid #000;
+				margin-bottom:10px;
+			}
+			.buycar .fp2 .fp2_L1{
+				width:940px;
+				height:30px;
+				color:#fff;
+				font-weight:bolder;
+				line-height:30px;
+				background: #666;				
+			}
+			.buycar .fp2_L1 input{							
+				margin-left:27px;				
+			}
+			.buycar .fp2_L1 .fp2_dt ul{
+				
+				height:30px;
+			}
+			.buycar .fp2_L1 .fp2_dt li{
+				color:#fff;
+				float:left;
+			}
+			.buycar .fp2_L1 .fp2_dt li.a5{
+				margin-right:67px;
+			}
+			.buycar .fp2_L1 .fp2_dt li.a4{
+				margin-right:40px;
+			}
+			.buycar .fp2_L1 .fp2_dt li.a3{
+				margin-right:80px;
+			}
+			.buycar .fp2_L1 .fp2_dt li.a2{
+				margin-right:125px;
+			}
+			.buycar .fp2_L1 .fp2_dt li.a1{
+				margin-right:330px;
+			}
+			.buycar .fp2 .fp2_L2{
+				height:30px;
+				line-height:30px;
+				background: #eee;				
+			}
+			.buycar .fp2_L3{
+				background:#f9f9f9;
+				
+			}
+			.buycar .fp2_L3 .data_L{
+				width:450px;
+				height:103px;
+			}
+			.buycar .fp2_L3 .data_L{
+				margin-top:10px;
+			}
+			.buycar .fp2_L3 .data_L input{
+				margin:30px 0 0 25px;
+			}
+			.buycar .fp2_L3 .data_L dd{
+				margin:10px 0 0 0;
+			}
+			.buycar .fp2_L3 .data_L span{
+				background: #c4b697;
+				font-size:14px;
+				padding:0 5px;
+				color:#fff;
+			}
+			.buycar .fp2_L3 .data_L dt p{
+				color:#666;
+			}
+			.buycar .fp2_L3 .data_L dt p.small{
+				color:#999;
+				font-size:14px;
+			}
+			.buycar .fp2_L3 .data_R{
+				height:103px;
+				margin-top:0px;
+			}
+			.buycar .fp2_L3 .data_R .price {
+				margin-top:30px;
+			}
+			.buycar .fp2_L3 .data_R .price span{
+				background:#c5b798;
+				padding:0 5px;
+				margin-right:40px;
+			}
+			.buycar .fp2_L3 .data_R .num{
+				margin-top:26px;				
+			}
+			.buycar .fp2_L3 .data_R .num button{
+				width:20px;
+				height:24px;				
+			}
+			.buycar .fp2_L3 .data_R .num input{
+				width:27px;
+				height:20px;
+			}
+			.buycar .fp2_L3 .data_R .score{
+				margin:30px 0 0 80px;
+				
+			}
+			.buycar .fp2_L3 .data_R .opt{
+				margin:20px 0 0 50px;
+			}
+			.buycar .fp2_L3 .data_R .opt a:hover{
+				color:red;
+			}
+			.buycar .fp3{
+				width:940px;
+				height:153px;
+				border:1px solid #000;
+				background: #eee;
+				margin-bottom:22px;
+			}
+			.buycar .fp3 .fR span{
+				color:#e5004f;
+			}
+			.buycar .fp3_U{
+				width:900px;
+				height:84px;
+				border-bottom:1px solid #fff;
+			}
+			.buycar .fp3_U .fL a{
+				margin-left:10px;
+			}
+			.buycar .fp3_U .fL{
+				margin-top:16px;
+			}
+			.buycar .fp3_U .fL p{
+				color:#e5004f;
+			}
+			.buycar .fp3_U .fR{
+				margin-top:12px;
+				line-height:26px;
+			}
+			.buycar .fp3_U .fR .tr1{
+				color:#000;
+				margin-left:250px;
+				font-weight:bolder;
+				font-size:16px;
+			}
+			.buycar .fp3_U .fR .tr2{
+				font-size:16px;
+			}
+			.buycar .fp3_D{
+				line-height:60px;
+				
+			}
+			.buycar .fp3_D input{
+				width:142px;
+				height:38px;
+				color:#fff;
+				font-weight:bolder;
+				font-size:18px;
+				background: #e5004f;
+				margin:15px 20px 0 27px ;
+			}
+			.buycar .fp3_D p span{
+				font-size:20px;
+				color:#e5004f;
+				font-weight: bolder;
+			}
+			.buycar .fp4{
+				width:940px;
+				height:31px;
+				line-height:31px;
+				margin-bottom:25px;
+				border-bottom:1px solid #e2e2e2;
+				background: #f4f4f4;
+			}
+			.buycar .fp4 li{
+				float:left;	
+				margin-bottom:20px;		
+				background:url(../css/seprator.jpg) right no-repeat;
+				padding:0 18px;
+			}
+			.buycar .fp4 li:hover{
+				background:#e1e1e1;			
+				cursor: pointer;
+			}
+			.bottom {
+				width:940px;
+				height:300px;
+				margin-bottom:25px;
+			}
+			.bottom .toL,.toR{
+				width:28px;
+				height:300px;
+				background: #eee;
+				cursor:pointer;
+			}
+			.bottom .toL{
+				left:0;
+				top:0;
+			}
+			.bottom .toR{
+				right:0;
+				top:0;
+			}
+			.bottom span{
+				display:block;
+				line-height:300px;				
+				text-align: center;		
+			}
+			.bottom dl{
+				width:150px;
+				height:300px;
+				
+			}
+			.bottom dd{
+				width:150px;
+				height:200px;
+				border:1px solid #e1e1e1;
+			}
+			.bottom dt{
+				line-height: 22px;
+			}
+			.bottom dt a:hover{
+				color:red;
+			}
+			.bottom dt p{				
+				color:red;
+			}
+			.bottom dt button{
+				margin-top:6px;
+			}
+			
+			.bottom .cargo{
+				width:150px;
+				height:300px;
+				float:left;
+				margin-left:25px;
+				
+			}
+			.bottom .whole{
+				margin-left:20px;
+			}
+				
